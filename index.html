@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/home.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <header id="home">
+            <nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <img src="/assets/menu.png" alt="icon" id="menu-icon" onclick="mostrarOcultarMenu()">
+                </div>
+                <ul class="menu-options" id="menu-options">
+                    <li id="x"><img src="/assets/cerrar.png" alt="icon"></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-info">
+                <div class="info-container">
+                    <figure>
+                        <img src="/assets/retrato.jpg" alt="image">
+                    </figure>
+                    <div class="header-text">
+                        <h1>Hi, I'm Alejandro Decaroli 👋</h1>
+                        <p><span style="color: cyan;">Software</span>&nbsp;developer</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="about" id="about">
+                <h2>About me</h2>
+                <p>
+                    Hello! My name is Alejandro, I am a student of Information Systems Engineering and a Python developer 🐍. 
+                    I love everything that has to do with artificial intelligence, machine learning, neural networks and the world of technology in 
+                    general.
+                    My strong point is python scripts, but I am constantly learning more about data analysis, machine learning and tools like Django, 
+                    I also know a little about HTML and CSS.
+                </p>
+                <h3>Education:</h3>
+                <p>Information Systems Engineering</p>
+                <p>UTN Facultad Regional de Rosario</p>
+                <p>2022 - Present</p>
+                <h3>Tech Stack:</h3>
+                <div class="tech-stack">
+                    <p><img src="/assets/piton.png" alt="icon">Python</p>
+                    <p><img src="/assets/dj.png" alt="icon">Django</p>
+                    <p><img src="/assets/html.png" alt="icon">HTML</p>
+                    <p><img src="/assets/css.png" alt="icon">CSS</p>
+                    <p><img src="/assets/git2.png" alt="icon">Git</p>
+                    <p><img src="/assets/github2.png" alt="icon">Github</p>
+                </div>
+            </section>
+            <section class="project" id="project">
+                <h2>Projects</h2>
+                <div class="project-container">
+                    <article>
+                        <img src="/assets/tree.jpg" class="image-pro" alt="image"> 
+                        <div class="text-project">
+                            <h3>Decision tree</h3> 
+                            <p>Example of a decision tree algorithm</p>
+                            <a href="https://github.com/alejandro-decaroli/Decision_Trees_y_Random_Forest">Code<img src="/assets/github4.png" class="git-decoration" alt="icon"></a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/red.png" class="image-pro" alt="image">
+                        <div class="text-project">
+                            <h3>Neural network</h3> 
+                            <p>Example of a binary classification neural network</p>
+                            <a href="https://github.com/alejandro-decaroli/Red_neuronal">Code<img src="/assets/github4.png" class="git-decoration" alt="icon"></a>
+                        </div> 
+                    </article>
+                    <article>
+                        <img src="/assets/logistica.png" class="image-pro" alt="image">
+                        <div class="text-project">
+                            <h3>Logistic regression</h3> 
+                            <p>Examples of a simple and multiple logistic regression</p>
+                            <a href="https://github.com/alejandro-decaroli/Regresion_logistica">Code<img src="/assets/github4.png" class="git-decoration" alt="icon"></a>
+                        </div> 
+                    </article>
+                    <article>
+                        <img src="/assets/lineal.png" class="image-pro" alt="image"> 
+                        <div class="text-project">
+                            <h3>Linear regression</h3> 
+                            <p>Examples of a simple and multiple linear regression</p>
+                            <a href="https://github.com/alejandro-decaroli/Regresion_lineal">Code<img src="/assets/github4.png" class="git-decoration" alt="icon"></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer id="contact">
+            <h2 class="contac-tittle-1">Get in Touch</h2>
+            <div class="social-container">
+                <h2 class="contac-tittle-2">Get in Touch</h2>
+                <p><img src="/assets/corre5.png" alt="icon"> alejandro.decaroli@hotmail.com</p>
+                <p><img src="/assets/ubi1.png" alt="icon">Rosario - Argentina</p>
+                <div class="social-container-networks">
+                    <a href="https://github.com/alejandro-decaroli"><img src="/assets/github4.png" alt="icon"></a>
+                    <a href="https://www.linkedin.com/in/alejandro-decaroli-b5a730179/"><img src="/assets/linke.png" alt="icon"></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/javascript/scripts.js"></script>
+
+    </body>
+    </html>
